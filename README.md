@@ -71,7 +71,7 @@ In diesem Teil wurde eine vollständige Active Directory Domäne aufgebaut.
 * Group Policies (GPO)
 * Domain Join eines Windows-Clients
 
-📄 Dokumentation:
+Dokumentation:
 
 * `Part-1-Active-Directory/Active Directory Lab Teil 1.pdf`
 
