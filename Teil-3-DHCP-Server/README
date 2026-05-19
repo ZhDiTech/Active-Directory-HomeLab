@@ -1,0 +1,65 @@
+# Teil 3 – DHCP Server Configuration
+
+## Übersicht
+
+In diesem Teil des Projekts wurde ein DHCP-Server auf Windows Server 2022 eingerichtet und konfiguriert.
+
+Ziel war die automatische Vergabe von IP-Adressen und Netzwerkeinstellungen an Clients innerhalb der Active Directory Domäne.
+
+---
+
+# Inhalte
+
+* Installation der DHCP-Serverrolle
+* DHCP Post-Installation
+* DHCP Autorisierung in Active Directory
+* Erstellung eines IPv4-Scopes
+* Konfiguration des IP-Adressbereichs
+* Gateway- und DNS-Konfiguration
+* Aktivierung des DHCP-Scopes
+* Konfiguration des Windows-Clients
+* DHCP-Funktionstests mit `ipconfig`
+
+---
+
+# Verwendete Technologien
+
+* Windows Server 2022
+* Windows 10 Pro
+* DHCP
+* Active Directory
+* DNS
+* VirtualBox
+
+---
+
+# Netzwerk-Konfiguration
+
+| Gerät    | Funktion                       | IP-Adresse    |
+| -------- | ------------------------------ | ------------- |
+| DC01     | DHCP / DNS / Domain Controller | 192.168.10.10 |
+| CLIENT01 | Windows 10 Client              | DHCP          |
+| Gateway  | Router                         | 192.168.10.1  |
+
+---
+
+# Ziel der Konfiguration
+
+Durch die Einrichtung des DHCP-Servers sollte die Netzwerkverwaltung automatisiert werden.
+
+Clients erhalten dadurch:
+
+* automatisch eine IP-Adresse
+* die passende Subnetzmaske
+* das Standardgateway
+* den DNS-Server
+
+Dadurch können neue Systeme einfacher und schneller in die Domänenumgebung integriert werden.
+
+---
+
+# Dokumentation
+
+Die vollständige Dokumentation befindet sich in der PDF-Datei:
+
+`Active Directory Lab Teil 3 DHCP Server Configuration.pdf`
