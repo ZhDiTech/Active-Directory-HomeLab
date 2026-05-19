@@ -127,6 +127,11 @@ Geplant:
 
 ---
 
+# Netzwerkdiagramm
+
+![Lab Network](network diagram.png)
+
+---
 # Autor
 
 ZhDiTech
