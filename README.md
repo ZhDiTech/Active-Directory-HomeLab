@@ -129,7 +129,7 @@ Geplant:
 
 # Netzwerkdiagramm
 
-![Lab Network](network diagram.png)
+![Lab Network](network-diagram.png)
 
 ---
 # Autor
