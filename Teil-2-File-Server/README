@@ -1,0 +1,28 @@
+# Part 2 – Fileserver & Berechtigungsverwaltung
+
+## Übersicht
+
+In diesem Teil wurde ein zentraler Windows-Fileserver innerhalb der Active Directory Domäne eingerichtet und abgesichert.
+
+## Inhalte
+
+* Erstellung von Netzwerkfreigaben
+* Share Permissions
+* NTFS-Berechtigungen
+* Sicherheitsgruppen
+* Zugriffstests
+* Netzlaufwerke über Gruppenrichtlinien (GPO)
+
+## Verwendete Technologien
+
+* Windows Server 2022
+* Active Directory
+* NTFS Permissions
+* SMB Shares
+* Group Policy Management
+
+## Dokumentation
+
+Die vollständige Projektdokumentation befindet sich in der PDF-Datei:
+
+`Active Directory Lab Teil 2 Fileserver und Berechtigungsverwaltung.pdf`
