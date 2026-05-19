@@ -1,0 +1,30 @@
+# Teil 1 – Active Directory & Domain Controller
+
+## Übersicht
+
+In diesem Teil wurde eine vollständige Active Directory Domäne mit Windows Server 2022 aufgebaut.
+
+## Inhalte
+
+* Installation von Windows Server 2022
+* Einrichtung von Active Directory Domain Services (AD DS)
+* DNS-Konfiguration
+* Erstellung der Domäne `firma.local`
+* Benutzer- und Gruppenverwaltung
+* Organizational Units (OU)
+* Gruppenrichtlinien (GPO)
+* Domain Join eines Windows-Clients
+
+## Verwendete Technologien
+
+* Windows Server 2022
+* Active Directory
+* DNS
+* Group Policy Management
+* VirtualBox
+
+## Dokumentation
+
+Die vollständige Projektdokumentation befindet sich in der PDF-Datei:
+
+`Active Directory Lab Teil 1.pdf`
