@@ -71,9 +71,9 @@ In diesem Teil wurde eine vollständige Active Directory Domäne aufgebaut.
 * Group Policies (GPO)
 * Domain Join eines Windows-Clients
 
-Dokumentation:
+📄 Dokumentation:
 
-* `Part-1-Active-Directory/Active Directory Lab Teil 1.pdf`
+* `Teil-1-Active-Directory/Active Directory Lab Teil 1.pdf`
 
 ---
 
@@ -92,7 +92,7 @@ In diesem Teil wurde ein zentraler Windows-Fileserver innerhalb der Domäne eing
 
 📄 Dokumentation:
 
-* `Part-2-File-Server/Active Directory Lab Teil 2 Fileserver und Berechtigungsverwaltung.pdf`
+* `Teil-2-File-Server/Active Directory Lab Teil 2 Fileserver und Berechtigungsverwaltung.pdf`
 
 ---
 
@@ -111,7 +111,7 @@ In diesem Teil wurde ein DHCP-Server eingerichtet und getestet.
 
 📄 Dokumentation:
 
-* `Part-3-DHCP-Server/Active Directory Lab Teil 3 DHCP Server Configuration.pdf`
+* `Teil-3-DHCP-Server/Active Directory Lab Teil 3 DHCP Server Configuration.pdf`
 
 ---
 
