@@ -46,11 +46,12 @@ Die gesamte Umgebung wurde in VirtualBox virtualisiert und orientiert sich an ty
 
 # Netzwerkstruktur
 
-| Gerät    | Funktion                       | IP-Adresse    |
-| -------- | ------------------------------ | ------------- |
-| DC01     | Domain Controller / DNS / DHCP | 192.168.10.10 |
-| CLIENT01 | Domänen-Client                 | DHCP          |
-| Domäne   | firma.local                    |               |
+| Gerät    | Funktion                              | IP-Adresse         |
+| -------- | ------------------------------------- | ------------------ |
+| DC01     | Domain Controller / DNS / DHCP        | 192.168.10.10      |
+| CLIENT01 | Domänen-Client                        | DHCP               |
+| WAZUH01  | Wazuh Server / Security Monitoring    | 192.168.10.30      |
+| Domain   | firma.local                           |                    |
 
 ---
 
@@ -115,15 +116,32 @@ In diesem Teil wurde ein DHCP-Server eingerichtet und getestet.
 
 ---
 
-## Teil 4 – Wazuh & Sysmon Security Monitoring *(In Arbeit)*
+## Teil 4 – Wazuh & Sysmon Security Monitoring
 
-Geplant:
+In diesem Teil wurde ein grundlegendes SIEM- und Security Monitoring System aufgebaut.
 
-* Wazuh SIEM
-* Sysmon
+Die Umgebung basiert auf einem Ubuntu Server mit installiertem Wazuh Manager sowie einem Windows Client mit Wazuh Agent und Sysmon zur Überwachung von Sicherheitsereignissen.
+
+Zusätzlich wurde eine kombinierte Netzwerkstruktur aus Internal-Network und NAT eingerichtet, um sowohl interne Kommunikation innerhalb des Labors als auch Internetzugriff für Installation und Updates zu ermöglichen.
+
+### Inhalte
+
+* Installation von Ubuntu Server 24.04 LTS
+* Netzwerkkonfiguration mit Internal Network und NAT
+* Einrichtung statischer und dynamischer IP-Konfigurationen
+* Installation von Wazuh
+* Deployment des Wazuh Agents auf Windows
+* Installation und Konfiguration von Sysmon
 * Windows Event Monitoring
-* Security Log Analyse
-* Alerting & Detection
+* Log Collection und Analyse
+* Erstellung eigener Wazuh-Regeln
+* PowerShell Event Detection
+* Security Alert Monitoring
+* Threat Hunting mit Wazuh
+
+📄 Dokumentation:
+
+* `Teil-4-Wazuh-Sysmon/Wazuh & Sysmon Security Monitoring.pdf`
 
 ---
 
