@@ -1,5 +1,8 @@
 # Active Directory Home Lab
 
+# English Version Coming Soon
+This project documentation is currently written in German.
+
 ## Übersicht
 
 Dieses Projekt dokumentiert den Aufbau einer vollständigen Active Directory Testumgebung mit Windows Server 2022.
